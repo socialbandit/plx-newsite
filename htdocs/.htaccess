@@ -1,0 +1,5 @@
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^bigbannersplus\.com [NC]
+RewriteRule (.*)$ http://www.bigbannersplus.com/$1 [L,R=301]
+ErrorDocument 404 /admin/404.php
+

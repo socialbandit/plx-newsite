@@ -1,0 +1,6 @@
+# robots.txt for http://www.bigbannersplus.com/
+
+User-agent: *
+Disallow: /admin/
+Disallow: /htmltemplates/
+Disallow: /php/
